@@ -14,7 +14,7 @@ To my delight, inspection of the original source code confirmed the findings of 
 
 Even more, the documentation of my reverse engineered version adds a substantial amount of information - from overall theory of operation down to some tricky details - to the understanding of the often sparsely commented original (quite expected for source code never meant for publication). So, if you are interested in learing how STAR RAIDERS works, my reverse engineered source code could be of help to you.
 
-### References to this repo
+### References to this project
 
 * [Star Raiders Tribute Page](http://www.sonic.net/~nbs/star-raiders/)
 * [Atari Wiki - Star Raiders](http://atariwiki.org/wiki/Wiki.jsp?page=Star%20Raiders)
