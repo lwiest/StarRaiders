@@ -24,3 +24,4 @@ Even more, the documentation of my reverse engineered version adds a substantial
 * [Wikipedia "Star Raiders"](https://en.wikipedia.org/wiki/Star_Raiders#Source_code)
 * [ANTIC The Atari 8-bit Podcast](http://ataripodcast.libsyn.com/webpage/2016/02/21)
 * [Brainwagon - Deconstructing the Classic Atari Game: Star Raiders](http://brainwagon.org/2013/11/17/deconstructing-the-classic-atari-game-star-raiders/)
+* [Article "Reverse Engineering Star Raiders", PoC||GTFO 0x13, p. 5-20, October 2016](https://archive.org/details/pocorgtfo13)
