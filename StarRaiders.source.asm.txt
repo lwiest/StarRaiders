@@ -16,7 +16,7 @@
 00016 ;*                                 22-SEP-2015                                 *
 00017 ;*                                                                             *
 00018 ;*                                 Last Update                                 *
-00019 ;*                                 03-SEP-2016                                 *
+00019 ;*                                 10-DEC-2016                                 *
 00020 ;*                                                                             *
 00021 ;*                STAR RAIDERS was created by Douglas Neubauer                 *
 00022 ;*                  STAR RAIDERS was published by Atari Inc.                   *
@@ -2729,22 +2729,22 @@
 02729
 02730 ;*** Display List of Galactic Chart view ***************************************
 02731 DLSTGC          .BYTE $60                             ; BLK7
-02732                 .BYTE $46,<GCHEADER,>GCHEADER         ; GR2 @ GCHEADER
+02732                 .BYTE $46,<GCHEADER,>GCHEADER         ; GR1 @ GCHEADER
 02733                 .BYTE $F0                             ; BLK8 + DLI
-02734                 .BYTE $47,<GCPFMEM,>GCPFMEM           ; GR1 @ GCPFMEM
-02735                 .BYTE $07                             ; GR1
-02736                 .BYTE $07                             ; GR1
-02737                 .BYTE $07                             ; GR1
-02738                 .BYTE $07                             ; GR1
-02739                 .BYTE $07                             ; GR1
-02740                 .BYTE $07                             ; GR1
-02741                 .BYTE $07                             ; GR1
-02742                 .BYTE $07                             ; GR1
+02734                 .BYTE $47,<GCPFMEM,>GCPFMEM           ; GR2 @ GCPFMEM
+02735                 .BYTE $07                             ; GR2
+02736                 .BYTE $07                             ; GR2
+02737                 .BYTE $07                             ; GR2
+02738                 .BYTE $07                             ; GR2
+02739                 .BYTE $07                             ; GR2
+02740                 .BYTE $07                             ; GR2
+02741                 .BYTE $07                             ; GR2
+02742                 .BYTE $07                             ; GR2
 02743                 .BYTE $80                             ; BLK1 + DLI
-02744                 .BYTE $46,<TITLETXT,>TITLETXT         ; GR2 @ TITLETXT
-02745                 .BYTE $46,<GCTXT,>GCTXT               ; GR2 @ GCTXT
-02746                 .BYTE $06                             ; GR2
-02747                 .BYTE $06                             ; GR2
+02744                 .BYTE $46,<TITLETXT,>TITLETXT         ; GR1 @ TITLETXT
+02745                 .BYTE $46,<GCTXT,>GCTXT               ; GR1 @ GCTXT
+02746                 .BYTE $06                             ; GR1
+02747                 .BYTE $06                             ; GR1
 02748                 .BYTE $41,<DSPLST,>DSPLST             ; JMP @ DSPLST
 02749
 02750 ;*******************************************************************************
@@ -2802,7 +2802,7 @@
 02802 ;      virtually all 6502 assemblers, as ISVBISYNC ($0067) is located in the
 02803 ;      zero page (memory addresses $0000..$00FF). The reason to force a 16-bit
 02804 ;      address operand is the following: The instruction STA ISVBISYNC,X is used
-02805 ;      in a loop which iterates the CPU’s X register from 0 to 255 to clear
+02805 ;      in a loop which iterates the CPU's X register from 0 to 255 to clear
 02806 ;      memory. By using this instruction with a 16-bit address operand
 02807 ;      ("indexed, absolute" mode), memory at $0067..$0166 is cleared. Had the
 02808 ;      code been using the same operation with an 8-bit address operand
