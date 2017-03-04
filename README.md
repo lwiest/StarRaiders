@@ -1,4 +1,4 @@
-## Fully documented, reverse engineered STAR RAIDERS source code
+## Fully Documented, Reverse Engineered STAR RAIDERS Source Code
 
 During the last years, as a hobby afterhours project, I reverse engineered a complete, extensively documented assembly language source code of STAR RAIDERS for the Atari 8-bit Home Computer System. I created it directly from the binary file of the ROM cartridge, finishing it in September 2015.
 
@@ -14,7 +14,16 @@ To my delight, inspection of the original source code confirmed the findings of 
 
 Even more, the documentation of my reverse engineered version adds a substantial amount of information - from overall theory of operation down to some tricky details - to the understanding of the often sparsely commented original (quite expected for source code never meant for publication). So, if you are interested in learing how STAR RAIDERS works, my reverse engineered source code could be of help to you.
 
-### References to this project
+### Genome Sequence
+
+The picture below shows the "genome sequence" of the reverse-engineered STAR RAIDERS 8 KB ROM (which I prepared for an article in [here](https://archive.org/details/pocorgtfo13)). I stacked the 8192 bytes vertically, with each byte represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes, arranged side-by-side. The segments are color coded:
+* Code (main game loop and subroutines) is in alternating shades of blue.
+* Data (lookup tables, texts, etc.) is in alternating shades of green.
+* Bitmap data (Player-Missile shapes and character set) is in alternating shades of purple and the solid line is replaced by the actual bit pattern.
+
+![](extras/GenomeSequence.png "STAR RAIDERS 8KB ROM Genome Sequence")
+
+### References to This Project
 
 * [Star Raiders Tribute Page](http://www.sonic.net/~nbs/star-raiders/)
 * [Atari Wiki - Star Raiders](http://atariwiki.org/wiki/Wiki.jsp?page=Star%20Raiders)
