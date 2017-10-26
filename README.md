@@ -20,7 +20,7 @@ _Even more, the documentation of my reverse engineered version adds a substantia
 
 ### Genome Sequence
 
-The picture below shows the "genome sequence" of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for an  [article](https://archive.org/details/pocorgtfo13)). I stacked the 8192 bytes vertically, with each byte represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes, arranged side-by-side. The segments of the stack are color-coded:
+The picture below shows the "genome sequence" of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for an  [publication](https://archive.org/details/pocorgtfo13)). I stacked the 8192 bytes vertically, with each byte represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes, arranged side-by-side. The segments of the stack are color-coded:
 * Code (main game loop and subroutines) is in alternating shades of blue.
 * Data (lookup tables, texts, etc.) is in alternating shades of green.
 * Bitmap data (Player-Missile shapes and character set) is in alternating shades of purple and the solid line of a byte is replaced by its actual bit pattern.
