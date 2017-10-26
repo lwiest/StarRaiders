@@ -1,10 +1,10 @@
-## Reverse Engineered, Complete, And Fully Documented STAR RAIDERS Source Code
+## Reverse Engineered And Fully Documented STAR RAIDERS Source Code
 
 STAR RAIDERS is a seminal computer game, published by Atari Inc. in 1979 as one of the first titles for the original Atari 8-bit Home Computer System (Atari 400 and 800).
 
 During the last years, as a hobby afterhours project, I reverse engineered a complete, extensively documented assembly language source code of STAR RAIDERS. I reverse engineered the source code directly from the binary file of the ROM cartridge, finishing it in September 2015. 
 
-This repo contains both the assembly source code input ([StarRaiders.source.asm.txt](StarRaiders.source.asm.txt)) and the assembly source code output ([StarRaiders.source.txt](StarRaiders.source.txt)).
+This repo contains both the reverse enginered assembly source code input ([StarRaiders.source.asm.txt](StarRaiders.source.asm.txt)) and output ([StarRaiders.source.txt](StarRaiders.source.txt)).
 
 You may find this useful if you are curious about the internals of STAR RAIDERS or if you are planning to make your own, modified version.
 
