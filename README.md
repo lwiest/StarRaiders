@@ -1,10 +1,8 @@
-## Fully Documented, Reverse Engineered STAR RAIDERS Source Code
-
-During the last years, as a hobby afterhours project, I reverse engineered a complete, extensively documented assembly language source code of STAR RAIDERS.
+## Reverse Engineered, Complete, And Fully Documented STAR RAIDERS Source Code
 
 STAR RAIDERS is a seminal computer game, published by Atari Inc. in 1979 as one of the first titles for the original Atari 8-bit Home Computer System (Atari 400 and 800).
 
-I reverse engineered the source code directly from the binary file of the ROM cartridge, finishing it in September 2015.
+During the last years, as a hobby afterhours project, I reverse engineered a complete, extensively documented assembly language source code of STAR RAIDERS. I reverse engineered the source code directly from the binary file of the ROM cartridge, finishing it in September 2015. 
 
 This repo contains both the assembly source code input ([StarRaiders.source.asm.txt](StarRaiders.source.asm.txt)) and the assembly source code output ([StarRaiders.source.txt](StarRaiders.source.txt)).
 
@@ -14,15 +12,15 @@ After very positive reader feedback on the initial release of my reverse enginee
 
 Enjoy -- Lorenz
 
-PS: I was absolutely thrilled to learn that in October 2015 [scans of the original STAR RAIDERS source code](https://archive.org/details/AtariStarRaidersSourceCode) re-surfaced.
+_PS: I was absolutely thrilled to learn that in October 2015 [scans of the original STAR RAIDERS source code](https://archive.org/details/AtariStarRaidersSourceCode) re-surfaced._
 
-To my delight, inspection of the original source code confirmed the findings of my reverse engineered version and caused only a few trivial corrections.
+_To my delight, inspection of the original source code confirmed the findings of my reverse engineered version and caused only a few trivial corrections._
 
-Even more, the documentation of my reverse engineered version adds a substantial amount of information - from overall theory of operation down to some tricky details - to the understanding of the often sparsely commented original (quite expected for source code never meant for publication). So, if you are interested in learing how STAR RAIDERS works, my reverse engineered source code could be of help to you.
+_Even more, the documentation of my reverse engineered version adds a substantial amount of information - from overall theory of operation down to some tricky details - to the understanding of the often sparsely commented original (quite expected for source code never meant for publication). So, if you are interested in learning how STAR RAIDERS works, my reverse engineered source code could be of help to you._
 
 ### Genome Sequence
 
-The picture below shows the "genome sequence" of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for an article in [here](https://archive.org/details/pocorgtfo13)). I stacked the 8192 bytes vertically, with each byte represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes, arranged side-by-side. The segments are color-coded:
+The picture below shows the "genome sequence" of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for an  [article](https://archive.org/details/pocorgtfo13)). I stacked the 8192 bytes vertically, with each byte represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes, arranged side-by-side. The segments of the stack are color-coded:
 * Code (main game loop and subroutines) is in alternating shades of blue.
 * Data (lookup tables, texts, etc.) is in alternating shades of green.
 * Bitmap data (Player-Missile shapes and character set) is in alternating shades of purple and the solid line of a byte is replaced by its actual bit pattern.
