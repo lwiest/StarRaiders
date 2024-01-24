@@ -12,17 +12,17 @@ You may find this useful if you are curious about the internals of STAR RAIDERS 
 
 After very positive reader feedback on the initial release of my reverse engineered source code I reviewed it again, resulting in a minor update.
 
-Enjoy -- Lorenz
+Enjoy &mdash; Lorenz
 
 _PS: I was absolutely thrilled to learn that in October 2015 [scans of the original STAR RAIDERS source code](https://archive.org/details/AtariStarRaidersSourceCode) re-surfaced._
 
 _To my delight, an inspection of the original source code confirmed the findings of my reverse engineered version and caused only a few trivial corrections._
 
-_Even more, the documentation of my reverse engineered version added a substantial amount of information &ndash; from overall theory of operation down to some tricky details &ndash; to the understanding of the often sparsely commented original (quite expected for source code never meant for publication). So, if you are interested in learning how STAR RAIDERS works, my reverse engineered source code could be of help to you._
+_Even more, the documentation of my reverse engineered version could add a substantial amount of information to the understanding of the often sparsely commented original (quite expected for source code never meant for publication) &ndash; from overall theory of operation down to some tricky details. So, if you are interested in learning how STAR RAIDERS works, my reverse engineered source code could be of help to you._
 
 ### Genome Sequence
 
-The picture below shows the &ldquo;genome sequence&rdquo; of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for a  [publication](https://archive.org/details/pocorgtfo13)). First, I stacked the 8192 bytes vertically. Each byte is represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes and arranged them side-by-side. The segments of the stack are color-coded:
+The picture below shows the &ldquo;genome sequence&rdquo; of the reverse engineered STAR RAIDERS 8 KB ROM (which I prepared for a [publication](https://archive.org/details/pocorgtfo13)). I created it as follows: First, I stacked the 8192 bytes vertically. Each byte is represented by a tiny, solid horizontal line of 8 pixels. Then, I split the stack into strips of 192 bytes and arranged them side-by-side. The strips are color-coded:
 * Code (main game loop and subroutines) is in alternating shades of blue <img src="extras/color_blue_dark.png"/> <img src="extras/color_blue_light.png"/> .
 * Data (lookup tables, texts, etc.) is in alternating shades of green <img src="extras/color_green_dark.png"/> <img src="extras/color_green_light.png"/> .
 * Bitmap data (Player-Missile shapes and character set) is in alternating shades of purple <img src="extras/color_purple_dark.png"/> <img src="extras/color_purple_light.png"/> . The solid line of a byte is replaced by its actual bit pattern.
